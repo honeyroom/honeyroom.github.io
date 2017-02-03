@@ -3,7 +3,9 @@
 username=honeyroom
 fullname="Ann Gordon"
 email="xkhjr@mailfs.com"
+echo "----------"
 echo '"ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
+echo "----------"
 git config core.sshCommand '"ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
 git config user.email '"'$email'"'
 git config user.name '"'$username'"'
