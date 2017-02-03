@@ -9,7 +9,7 @@ email="xkhjr@mailfs.com"
 # cat '../../deployment-keys/'$username'_id_rsa'
 # echo 'git config core.sshCommand "ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
 # git config core.sshCommand '"ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
-git config core.sshCommand ssh -i '/home/arthur/jekyll/jekyll-install/deployment-keys/'$username'_id_rsa -F /dev/null'
+git config core.sshCommand ssh -i '"/home/arthur/jekyll/jekyll-install/deployment-keys/'$username'_id_rsa -F /dev/null"'
 # git config user.email '"'$email'"'
 # git config user.name '"'$username'"'
 git add .
