@@ -10,8 +10,8 @@ email="xkhjr@mailfs.com"
 # echo 'git config core.sshCommand "ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
 # git config core.sshCommand '"ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
 git config core.sshCommand '"ssh -i ../../deployment-keys/'$username'_id_rsa -F /dev/null"'
-git config user.email '"'$email'"'
-git config user.name '"'$username'"'
+# git config user.email '"'$email'"'
+# git config user.name '"'$username'"'
 git add .
 git commit -a -m "initial"
 git push -u origin master
